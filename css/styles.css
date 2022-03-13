@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    font-size: 14px;
+    
+}
+
+.container{
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+   
+}
+.navBar {
+    display: flex;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(230,244,252,1) 50%, rgba(231,243,252,1) 71%, rgba(232,242,252,1) 88%, rgba(235,241,252,1) 100%);
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+  
+  
+}
+
+.logo{
+    flex-basis: 50%;
+}
+
+
+.logo p{
+    color: rgb(44, 76, 202);
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.menu{
+    /* width: 60%; */
+   font-family: 'Fredoka', sans-serif;
+   font-weight: bold;
+   letter-spacing: 2px;
+   flex-basis: 50%;
+
+}
+
+
+ul{
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+   
+}
+ li{
+    float: left;
+} 
+
+li a{
+    display: block;
+    color: rgb(109, 123, 147);;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+.active{
+    background: radial-gradient(circle, rgba(50,87,213,1) 0%, rgba(52,84,210,1) 100%);
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    
+
+}
+
+ .vaccines{
+    display: flex;
+    flex-wrap: wrap;
+  
+   
+   
+}
+
+  .fightVirus {
+    flex-basis: 50%;
+     /* width: 50%;  */
+     margin: 100px auto;
+}
+
+.text {
+    width: 70%;
+   
+}
+
+.text .titleVaccines{
+    font-size: 4em;
+   color: rgb(31, 62, 114);
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ .information{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.5em;
+    line-height: 30px;
+
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.mt-4{
+    margin-top: 40px;
+}
+  .imageContext {
+      /* width: 50%;  */
+      position: relative; 
+      z-index: 1;
+      flex-basis: 50%;
+ 
+} 
+
+img{
+    width: 100%;
+    /*max-wi: 100%*/
+}
+
+.d-f {
+    display: flex;
+    justify-content: space-around;
+}
+
+.schedule{
+    margin-top: 120px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
+
+.scheduleInformation{
+    display: flex;
+    width: 60%;
+    position: absolute;
+    background-color: rgb(251, 252, 254);
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    position: absolute;
+    z-index: 3;
+    opacity: .9;
+    flex-wrap: wrap;
+    box-shadow: 0 15px 0 0 rgba(40,72,198,.2)
+}
+
+.justify-right{
+    text-align: right;
+    padding-right: 25px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.division{
+    width: 25%;
+}
+
+.btn{
+    background-color: rgb(40, 72, 198);
+    padding: 15px 35px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    opacity: 1;
+    font-size: 15px;
+  
+}
+
+.divisionSubmit{
+    text-align: center;
+}
+
+.titleInfo{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.d-inline-block {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.icon-fondo{
+    background-color: rgb(227, 235, 248);
+}
+
+.tipoVacunas {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    flex-wrap: wrap;
+}
+
+.vacunaLogo{
+    width: 17%;
+
+}
+
+.vacunaLogo img {
+    filter: grayscale(1);
+    opacity: .2;
+}
+
+.whyVaccine{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.whyText{
+    width: 45%;
+}
+
+.advantages{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.descAdvantages{
+    flex-basis: 16%;
+}
+.subtitle{
+    font-size: 2em;
+    color: rgb(31, 62, 114);
+     font-weight: 800;
+     letter-spacing: 3px;
+     font-family: 'Roboto', sans-serif;
+}
+
+.titleAdvantages{
+    font-size: 1.2em;
+    color: rgb(31, 62, 114);
+     font-weight: 400;
+     letter-spacing: 3px;
+     font-family: 'Roboto', sans-serif;
+     margin-top: 15px;
+}
+
+.infoAdvantages{
+    font-size: 1em;
+    line-height: 25px;
+     font-weight: 200;
+     margin-top: 20px;
+     font-family: 'Roboto', sans-serif;
+
+}
+
+.preparations{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+
+.imageContext1{
+    flex-basis: 50%;
+    margin-top: 80px;
+}
+
+.imgPreparation img{
+    width: 100%;
+    height: 350px;
+}
+
+.preparationBefore{
+    flex-basis: 50%;
+}
+
+.lista {
+    font-size: 1em;
+    line-height: 25px;
+     font-weight: 200;
+     margin-top: 20px;
+     font-family: 'Roboto', sans-serif;
+     margin-left: 20px;
+     color: rgb(31, 62, 114);
+}
+
+.ml{
+    margin-left: 20px;
+}
+
+.fondo{
+    background-color: rgb(40, 72, 198);
+    width: 80%;
+    height: 300px;
+}
+
+dd{
+    color: rgb(109, 123, 147);
+}
+
+dt{
+    display: inline-block;
+}
+
+.contacts{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    flex-basis: 40%;
+    margin-top: 40px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.data{
+    margin-bottom: 15px;
+}
+
+.button{
+    text-align: center;
+}
+
+.btnBlueClar{
+    background-color: rgb(186, 207, 248);
+    color:rgb(40, 72, 198);
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    background-color: rgb(186, 207, 248);
+    padding: 30px;
+}
+
+.vaccination{
+    flex-basis: 50%;
+}
+
+.extraInfo{
+    flex-basis: 50%;
+      
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.titleInfo{
+    font-size: 1.2em;
+    color: rgb(31, 62, 114);
+     font-weight: 400;
+     letter-spacing: 3px;
+     font-family: 'Roboto', sans-serif;
+    
+}
+
+.blueDark{
+    color: rgb(40, 72, 198);
+   
+}
+
+.goal{
+    width: 25%;
+    margin-top: 15px;
+}
+
+.moreInfo{
+    line-height: 35px;
+}
